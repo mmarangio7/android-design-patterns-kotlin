@@ -18,7 +18,7 @@ interface Pizza {
 }
 
 
-object BookFactory {
+object PizzaFactory {
 
     fun createPizza(pizzaType: PizzaType) : Pizza = when(pizzaType) {
         PizzaType.MARGHERITA -> PizzaMargherita()
